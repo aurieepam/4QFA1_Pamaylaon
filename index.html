@@ -51,6 +51,7 @@
         function rBorder(input){
             if(input.value === ''){
                 input.classList.add('red-border');
+                input.classList.remove('green-border');
             }
             else{
                 input.classList.add('green-border');
@@ -60,6 +61,7 @@
         function gBorder(input){
             if(input.value !== ''){
                 input.classList.add('green-border');
+                input.classList.remove('red-border');
             }
             else{
                 input.classList.add('red-border');
@@ -82,13 +84,20 @@
 
         function resetAll(){
             document.getElementById("display").innerHTML = "";
-            document.getElementById("name").style.border = "2px solid black";
-            document.getElementById("userName").style.border = "2px solid black";
-            document.getElementById("pword").style.border = "2px solid black";
-            document.getElementById("gender").style.border = "2px solid black";
-            document.getElementById("email").style.border = "2px solid black";
-            document.getElementById("address").style.border = "2px solid black";
-            document.getElementById("tArea").style.border = "2px solid black";
+            document.getElementById("name").classList.remove("red-border", "green-border");
+            document.getElementById("name").classList.add("blk-border");
+            document.getElementById("userName").classList.remove("red-border", "green-border");
+            document.getElementById("userName").classList.add("blk-border");
+            document.getElementById("pword").classList.remove("red-border", "green-border");
+            document.getElementById("pword").classList.add("blk-border");
+            document.getElementById("gender").classList.remove("red-border", "green-border");
+            document.getElementById("gender").classList.add("blk-border");
+            document.getElementById("email").classList.remove("red-border", "green-border");
+            document.getElementById("email").classList.add("blk-border");
+            document.getElementById("address").classList.remove("red-border", "green-border");
+            document.getElementById("address").classList.add("blk-border");
+            document.getElementById("tArea").classList.remove("red-border", "green-border");
+            document.getElementById("tArea").classList.add("blk-border");
     }
     </script>
 </body>
