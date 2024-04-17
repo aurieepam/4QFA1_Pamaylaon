@@ -2,13 +2,14 @@
 *{
     margin: 0;
     padding: 0;
-    background-color: pink;
+    background-color: rgb(255, 169, 169);
 }
 
 #form{
     margin-left: 65vh;
     margin-right: 65vh;
     margin-top: 10vh;
+    margin-bottom: 10vh;
 }
 #title{
     padding-top: 5vh;
@@ -21,10 +22,20 @@
     text-align: center;
     font-family: 'Cranberry', sans-serif;
     color: rgb(255, 77, 106);
+    font-size: x-large;
 }
 #fieldset{
     padding: 10px;
-    border-color: rgb(255, 1, 13);
+    border-color: rgb(255, 255, 255);
+}
+
+#output{
+    margin-left: 65vh;
+    margin-right: 65vh;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    padding: 10px;
+    border-color: rgb(255, 255, 255);
 }
 
 #button{
@@ -36,44 +47,28 @@
     padding: 10px;
 }
 
-#labels{
+#rbutton{
     font-family: 'Cranberry', sans-serif;
     color: rgb(255, 65, 97);
     background-color: rgb(255, 243, 243);
+    border: none;
+    border-radius: 5px;
     padding: 10px;
-    border-radius: 10px;
 }
 
-#name{
-    border-color: red;
-    border-style:dashed;
+#labels{
+    font-family: 'Cranberry', sans-serif;
+    color: rgb(255, 65, 97);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 15px;
 }
-
-#userName{
-    border-color: red;
-    border-style:dashed;
+ 
+.red-border {
+    border: 2px solid red;
 }
-
-#pword{
-    border-color: red;
-    border-style:dashed;
+.green-border {
+    border: 2px solid green;
 }
-
-#email{
-    border-color: red;
-    border-style:dashed;
-}
-
-#address{
-    border-color: red;
-    border-style:dashed;
-}
-
-#tArea{
-    border-color: red;
-    border-style:dashed;
-}
-
-
 
 
