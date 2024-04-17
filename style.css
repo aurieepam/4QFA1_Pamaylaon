@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/cranberry');
+*{
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+#form{
+    margin-left: 65vh;
+    margin-right: 65vh;
+    margin-top: 10vh;
+}
+#title{
+    padding-top: 5vh;
+    text-align: center;
+    font-family: 'Cranberry', sans-serif;
+    color: rgb(255, 61, 93);
+}
+
+#legend{
+    text-align: center;
+    font-family: 'Cranberry', sans-serif;
+    color: rgb(255, 77, 106);
+}
+#fieldset{
+    padding: 10px;
+    border-color: rgb(255, 1, 13);
+}
+
+#button{
+    font-family: 'Cranberry', sans-serif;
+    color: rgb(255, 65, 97);
+    background-color: rgb(255, 243, 243);
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#labels{
+    font-family: 'Cranberry', sans-serif;
+    color: rgb(255, 65, 97);
+    background-color: rgb(255, 243, 243);
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#name{
+    border-color: red;
+    border-style:dashed;
+}
+
+#userName{
+    border-color: red;
+    border-style:dashed;
+}
+
+#pword{
+    border-color: red;
+    border-style:dashed;
+}
+
+#email{
+    border-color: red;
+    border-style:dashed;
+}
+
+#address{
+    border-color: red;
+    border-style:dashed;
+}
+
+#tArea{
+    border-color: red;
+    border-style:dashed;
+}
+
+
+
+
